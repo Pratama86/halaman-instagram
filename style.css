@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: 2px 2px 1px #dbd9d9;
+}
+
+.col-1 {
+    width: 70%;
+}
+
+.col-2 {
+    width: 40%;
+}
+
+.flex {
+    display: flex;
+}
+
+.input-wrapper {
+     width: 100%;
+}
+
+.search {
+    float: right;
+    border: 1px solid #fafafa;
+    padding: 5px;
+    height: 20px;
+    margin-top: 12px;
+}
+
+.input-search {
+    height: 20px;
+    border: 0px solid transparent;
+}
+
+.menu-wrapper {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    margin-top: 20px;
+    display: flex;
+}
+
+.menu a {
+    padding-left: 10px;
+    color: black;
+}
+
+.menu-link {
+    height: 20px !important;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.img-circle {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.img-avatar {
+width: 30px;
+}
+
+.card {
+    max-width: 100%;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    margin-top: 25px;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.img-cercle-gradient {
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(
+    90deg,
+    rgba(131,58,180,1) 0%,
+    rgba(253,29,29,1) 50%,
+    rgba(252,176,69,1) 100%
+    );
+    margin-top: 5px;
+}
+
+.story {
+    margin-right: 20px;
+}
+
+.img-circle-story {
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 
+}
+
+.img-story {
+    width: 80px;
+}
+
+.name-story-wrapper {
+    width: 70px;
+    text-align: center;
+}
+
+.name-story {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.img-cercle-gradient-post {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    padding: 1px;
+    background: linear-gradient(
+    90deg,
+    rgba(131,58,180,1) 0%,
+    rgba(253,29,29,1) 50%,
+    rgba(252,176,69,1) 100%
+    );
+}
+
+.avatar-post {
+    width: 70%;
+}
+
+.menu-post {
+    width: 30%;
+    text-align: right;
+    margin-top: 6px;
+}
+
+.img-circle-post {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 
+}
+
+.img-avatar-post {
+    width: 35px;
+}
+
+.title-avatar-post {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 8px;
+    float: right;
+}
+
+.img-post-wrapper {
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.img-post {
+    width: 100%;
+}
+
+.head-post {
+padding: 10px;
+}
+
+.card-post {
+    max-width: 100%;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    margin-top: 25px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.icon-action {
+    width: 70%;
+    margin: 10px;
+}
+
+.icon-action i{
+margin-right: 10px;
+}
+
+.bookmark-icon {
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+}
+
+.like {
+    padding: 10px;
+}
+
+.text-mute {
+    font-size: 12px;
+    color: #d8d8d8;
+}
+
+.comment {
+    padding: 10px;
+}
+
+.input-comment {
+    border: 1px solid #f0f0f0;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.btn-comment {
+    border: 0px solid transparent;
+    background-color: transparent;
+    color: #4784f4;
+}
+
+.line {
+    background-color: #d8d8d8;
+}
+
+.wrapper-side-user {
+    padding-left: 20PX;
+    margin-top: 35px;
+}
+
+.img-circle-user-side {
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 
+}
+
+.img-avatar-user-side {
+    width: 60px;
+}
+
+.wrapper-title-side-user {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.title-avatar-side-user {
+    font-size: 14px;
+}
+
+.username {
+    color: #b2b2b2;
+    font-size: 12px;
+}
+
+.link-user-wrapper {
+    width: 30%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.link-user {
+    font-size: 12px;
+    text-decoration: none;
+    color: #3da9ed;
+}
+
+.text-saran {
+font-size: 12px;
+
+}
+
+.link-lihat {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0c1114;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mt-30 {
+    margin-top: 20px;
+}
+
+.divide {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eee;
+}
+
+#wrapper {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.main-contain {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 2px solid #e6e6e6;
+    padding: 40px 50px;
+}
+
+.contain {
+    margin-bottom: 5px;
+}
+
+.contain img {
+    height: 70px;
+    width: 160px;
+    margin: auto;
+    position: relative;
+    left: 40px;
+}
+
+.username,
+.password {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.forget-text {
+    position: relative;
+}
+
+.forget-text a {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}

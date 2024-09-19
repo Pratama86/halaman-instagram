@@ -1,0 +1,157 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+ 
+}
+
+.col-user{
+width: 40%;
+height: 600px;
+background-color:white ;
+border: 1px solid #dbdbdb;
+}
+.col-chet{
+width: 60%;
+height: 600px;
+background-color:white ;
+border: 1px solid #dbdbdb;
+}
+
+.head-user{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   border: 1px solid #dbdbdb;
+}
+
+.edit{
+    float: right;
+    margin-right: 20px;
+}
+
+.keluar {
+    float: left;
+    margin-left: 5px;
+    color: black;
+}
+
+.conten-user{
+    padding: 24px;
+    overflow: auto;
+    height: 490px;
+}
+
+.text-blue{
+    color: #1297e4;
+}
+
+.float-right{
+    float: right;
+}
+
+.user-chet{
+    margin-top: 20px;
+}
+
+.img-wrapper-sircel{
+    width:60px ;
+    height:60px ;
+    overflow: hidden;
+    border-radius: 100px;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.text-chet-user{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.chet-time{
+    color: #afafaf;
+    font-size: 12px;
+}
+
+.head-chet{
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 11px;
+   border: 1px solid #dbdbdb;
+}
+
+.img-wrapper-sircel-chet{
+    width:30px ;
+    height:30px ;
+    overflow: hidden;
+    border-radius: 100px;
+    
+}
+
+.conten-head-chet{
+    margin-left: 24px;
+}
+
+.text-header-chet{
+    margin-left: 10px;
+ 
+}
+
+.conten-chet{
+    padding: 20px;
+    height: 450px;
+   
+}
+
+.chet{
+    max-width: 200px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.chet-replay{
+    max-width: 400px;
+    float: right;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.input-chet{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.input-chet{
+    margin-left: 10px;
+}
+
+.input-oi{
+    width: 80%;
+    border: 0px solid transparent;
+}
